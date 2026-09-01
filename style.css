@@ -1,0 +1,97 @@
+ 
+        .likeedeslike{
+            margin-top:40px;
+        }
+        .textolateral3{
+            font-size:27px;
+            color:rgb(91, 91, 172);
+           font-family:'Courier New', Courier, monospace;
+            max-width: 300px;
+            margin-left: 20px;
+            margin-top: 50px;
+            border-style: solid;
+            border-width: 3px;
+            margin-right: 20px;
+            
+        }
+        .textolateral2{
+            font-size:27px;
+           font-family:'Courier New', Courier, monospace;
+            max-width: 750px;
+            margin-left: 100px;
+            margin-top: 50px;
+            margin-right: 20px;
+            border-style: solid;
+            border-width: 3px;
+        }
+        .lateral{
+            display: flex;} /* deixa o texto organizado um do lado do outro, texto + texto ou texto + imagem, etc */
+        
+        .dica1{
+            display:flex;}
+        
+    .esconde {
+            display: none;}
+        /* DEFINE O FUNDO DA PÁGINA */
+        body {
+            background-color: rgb(170, 61, 61);
+        }
+
+        /* ESTILIZA O TÍTULO PRINCIPAL */
+        h1 {
+            font-size: 45px;
+            text-align: center;
+        }
+
+        /* ESTILIZA O SUBTÍTULO */
+        h2 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        /* ESTILIZA CADA CAIXA DE DICA */
+        .dica {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+
+            /* DEFINE O ESPAÇO INTERNO */
+            padding: 20px;
+
+            /* DEFINE O ESPAÇO ENTRE AS DICAS */
+            margin: 30px;
+        }
+
+        /* DEFINE O TAMANHO DO TÍTULO DAS DICAS */
+        h3 {
+            font-size: 25px;
+        }
+
+        /* DEFINE O TAMANHO DO TEXTO */
+        p {
+            font-size: 20px;
+        }
+        .titulo {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #ca7373;
+    border-color: #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family:'Courier New', Courier, monospace;
+}
+.subtitulo{
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #925959;
+    border-color: #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family:'Courier New', Courier, monospace;
+    justify-content: center;
+}
+

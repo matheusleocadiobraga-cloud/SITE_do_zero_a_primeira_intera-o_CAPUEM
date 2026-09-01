@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- DEFINE O TÍTULO DA ABA -->
+    <title>⚽ DICAS PARA MELHORAR SEU CHUTE!</title>
+
+    <!-- PERMITE ACENTOS E CARACTERES ESPECIAIS -->
+    <meta charset="UTF-8">
+
+    <!-- FAZ O SITE SE ADAPTAR À TELA -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <!-- TÍTULO PRINCIPAL -->
+    <h1>⚽ DICAS PARA MELHORAR SEU CHUTE!</h1>
+
+    <!-- SUBTÍTULO -->
+    <h2 class="titulo">4 DICAS PARA MELHORAR SEU CHUTE NO FUTEBOL</h2>
+    <article class="subtitulo"> <b>4 dicas para melhorar o seu chute (principalmente no penalti ou perto do gol) no futebol!!</b></article>
+
+
+    <!-- PRIMEIRA DICA -->
+    <div class="dica">
+        <h3>1. EM QUE PARTE DA BOLA VOCÊ DEVE CHUTAR?</h3>
+
+        
+        <button id="botao1" onclick="D4C()">Clique aqui para ver a dica</button>
+        <div id="dica1" class="esconde">
+        
+<p> Muita gente não sabe, <b>mas você precisa ver em qual parte da bola você vai chutar.</b> Se você quer que a bola vá para cima, você precisa chutar na parte de baixo da bola.
+você quer que a bola vá para baixo, você precisa chutar na parte de cima da bola. E se você quer que a bola vá para os lados, você precisa chutar na parte do meio da bola.
+               
+            </p>
+            <div class="lateral">
+            <img src="1.png" height="200" width="200">
+            <p class="textolateral2"> Na maioria das vezes, é mais vantajoso você focar em <b>chutar o meio da bola</b>, nem muito em baixo e nem muito em cima, para que ela vá mais centralizada no gol</p>
+    </div>
+    </div>
+
+
+    <!-- SEGUNDA DICA -->
+    <div class="DIC2">
+        <h3>2. CHUTE DE CHAPA PERTO DO GOL </h3>
+
+
+  
+        
+        <button id="botao2" onclick="D5C()">Clique aqui para ver a dica</button>
+        <div id="dica2" class="esconde">
+            <p> priorize chutar com a <b>chapa do pé (que é a mesma parte que você usa para fazer passes com a bola, a parte curvada do pé)</b>, assim sairá um chute menos potente mas mais preciso, oque é ótimo perto do gol</p>
+            
+            <div class="lateral">
+            <img src="2.png" width="350" height="200">
+            <p class="textolateral2">a chapa do pé disponibiliza mais controle nos chutes, pois não é aquela força de um chute de dedão por exemplo, assim, mesmo com pouca prática sendo um dos chutes mais letais envolvendo chutes perto do gol</p>
+            <video autoplay muted loop controls id="videosigma" height="300px" width="400px">  <source src="4.mp4" type="video/mp4"> </video>
+        </div></div>
+            
+           
+            <!--<video width="320" height="240" controls>
+                <source src="2.mp4" type="video/mp4">-->
+                
+   >
+
+
+    <!-- TERCEIRA DICA -->
+    <div class="DIC3">
+        <h3>3. PLANEJE ANTECIPADAMENTE</h3>
+        <button class="botao3" onclick="D6C()">Clique aqui para ver a dica</button>
+<div id="dica3" class="esconde">
+        <p>Você precisa <b>planejar antes onde vai chutar a bola</b>, o mais cedo e o mas rápido (rápido mas sem atrapalhar o pensamento) possível</p>
+            
+        
+        
+        <div class="lateral">
+        
+<p class="textolateral2">Se o goleiro ver para onde você está olhando (planejando o seu chute), mesmo de relance, ele vai conseguir ver onde você possuí mais chance de chutar, assim terá mais chance de defender!</p>
+<p class="textolateral3"><strong>EXTRA:</strong> se você já tiver um pouco de habilidade, pode enganar o goleiro olhando para um lado e chutando para o outro!</p>
+<img src="3.png" width="400" height="300">
+        </div></div>
+   
+    </div>
+
+
+    <!-- QUARTA DICA -->
+    <div class="DIC4">
+        <h3>4. CHUTE COM A PERNA DOMINANTE!!!</h3>
+
+        
+        <button class="botao4" onclick="D7C()">Clique aqui para ver a dica</button>
+        <div id="dica4" class="esconde">
+            <p>Sempre chute com a sua perna dominante! Treine muito ela e várias técnicas!</p>
+            
+            <div class="lateral">
+<img src="5.png" height="200px" width="300px">
+<p class="textolateral2"> Sempre se lembre de treinar uma perna só, se você treinar as duas bem equilibrado você pode até saber bons dribles mas quem tem 1 perna dominante vai passar e chutar com mais força e eficiência</p>
+
+            </div>
+
+
+        </div>
+    </div><div class="likeedeslike"> 
+    <button onclick="like()">👍 LIKE <span id="contadorLike">0</span></button> <!-- BOTÃO DE DESLIKE --> <button onclick="deslike()">👎 DESLIKE <span id="contadorDeslike">0</span></button>
+<script>
+        function D4C() {
+
+            dica1.classList.remove("esconde");
+            botao1.classList.add("esconde");
+        }
+        function D5C() {
+            dica2.classList.remove("esconde");
+            botao2.classList.add("esconde");
+        }
+        function D6C() {
+            dica3.classList.remove("esconde");
+            botao3.classList.add("esconde");
+        }
+        function D7C() {
+            dica4.classList.remove("esconde");
+            botao4.classList.add("esconde");
+        }
+          function like() { document.getElementById("contadorLike").innerHTML = "1"; }  function deslike() {  document.getElementById("contadorDeslike").innerHTML = "1";}
+
+    </script>
+</body>
+
+</html>
