@@ -106,27 +106,6 @@ você quer que a bola vá para baixo, você precisa chutar na parte de cima da b
         </div>
     </div><div class="likeedeslike"> 
     <button onclick="like()">👍 LIKE <span id="contadorLike">0</span></button> <!-- BOTÃO DE DESLIKE --> <button onclick="deslike()">👎 DESLIKE <span id="contadorDeslike">0</span></button>
-<script>
-        function D4C() {
-
-            dica1.classList.remove("esconde");
-            botao1.classList.add("esconde");
-        }
-        function D5C() {
-            dica2.classList.remove("esconde");
-            botao2.classList.add("esconde");
-        }
-        function D6C() {
-            dica3.classList.remove("esconde");
-            botao3.classList.add("esconde");
-        }
-        function D7C() {
-            dica4.classList.remove("esconde");
-            botao4.classList.add("esconde");
-        }
-          function like() { document.getElementById("contadorLike").innerHTML = "1"; }  function deslike() {  document.getElementById("contadorDeslike").innerHTML = "1";}
-
-    </script>
     <style>
  .likeedeslike{
             margin-top:40px;
@@ -227,6 +206,28 @@ você quer que a bola vá para baixo, você precisa chutar na parte de cima da b
 
 
     </style>
+<script>
+        function D4C() {
+
+            dica1.classList.remove("esconde");
+            botao1.classList.add("esconde");
+        }
+        function D5C() {
+            dica2.classList.remove("esconde");
+            botao2.classList.add("esconde");
+        }
+        function D6C() {
+            dica3.classList.remove("esconde");
+            botao3.classList.add("esconde");
+        }
+        function D7C() {
+            dica4.classList.remove("esconde");
+            botao4.classList.add("esconde");
+        }
+          function like() { document.getElementById("contadorLike").innerHTML = "1"; }  function deslike() {  document.getElementById("contadorDeslike").innerHTML = "1";}
+
+    </script>
+    
 </body>
 
 </html>
